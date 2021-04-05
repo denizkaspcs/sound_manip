@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Channels.java" package="player" timestamp="10-May-2019 01:26:21">
+        <select from="4134" to="4134"/>
+        <scroll column="2031" row="0"/>
+      </file>
+      <file name="TestTracksClass.java" package="player" timestamp="10-May-2019 01:26:22">
+        <select from="4134" to="4134"/>
+        <scroll column="2031" row="0"/>
+      </file>
+      <file name="Note.java" package="player" timestamp="10-May-2019 01:26:22">
+        <select from="4134" to="4134"/>
+        <scroll column="2031" row="0"/>
+      </file>
+      <file name="MiniPlayer.java" package="player" timestamp="10-May-2019 01:37:49">
+        <select from="4134" to="4134"/>
+        <scroll column="2031" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
