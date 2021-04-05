@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" build="../bin/" main="Main" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Main.java" package="" timestamp="09-May-2019 14:32:51">
+        <select from="358" to="358"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CS_Elements/MCanvas.java" package="CS_Elements" timestamp="09-May-2019 14:32:51">
+        <select from="358" to="358"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CS_Elements/MPiano.java" package="CS_Elements" timestamp="09-May-2019 14:32:51">
+        <select from="358" to="358"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CS_Elements/MTimeline.java" package="CS_Elements" timestamp="09-May-2019 14:32:51">
+        <select from="358" to="358"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CS.java" package="" timestamp="09-May-2019 14:32:51">
+        <select from="358" to="358"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

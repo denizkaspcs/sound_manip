@@ -1,0 +1,67 @@
+package GUI_STUFF;
+
+import player.*;
+import java.util.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import java.awt.*;
+import java.awt.event.*;
+
+import Composition_Screen.*;
+import Composition_Screen.CS_Elements.*;
+
+public class GridPanel extends JPanel
+{
+   static int count = 0;
+   
+   final Dimension BUTTON_DIMENSION =  new Dimension(100, 25);
+   final Font DEFAULT_FONT = new Font("Arial", Font.BOLD, 14);   
+   
+   Channels channel;   
+   
+   CS cs;
+   int index;
+   
+   BarButton[] barButtons;
+   
+   public GridPanel(Channels channel, CS cs)
+   {
+      setLayout(new FlowLayout(50,0,0));
+      setPreferredSize(new Dimension( 50*26, 37));
+      barButtons = new BarButton[50];
+      
+      count++;
+      index = count;
+      
+      for (int i = 0; i < 50; i++) 
+      {
+          barButtons[i] = new BarButton();          
+          barButtons[i].setPreferredSize(new Dimension(26,37));
+          add(barButtons[i]);
+      }
+      
+      this.channel = channel;
+      this.cs = cs;
+      
+   }
+   
+   public class BarButton extends JButton
+   {
+       public BarButton()
+       {
+           
+       }
+   }
+   
+   public class clicked implements ActionListener
+   {
+      public void actionPerformed(ActionEvent e)
+      {
+          
+      }
+   }
+   
+   
+   
+   
+}
